@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'); */
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
 header ul li {
     @apply px-2;
 }
@@ -23,7 +29,11 @@ header ul li {
 }
 
 .project-desc {
-    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 z-50;
+}
+
+.relative > img:hover  +.project-desc {
+  @apply opacity-100;
 }
 
 .btn {
