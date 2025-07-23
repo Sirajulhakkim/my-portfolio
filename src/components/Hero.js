@@ -1,5 +1,3 @@
-import HeroImg from '../assets/hero.png';
-import { AiOutlineTwitter, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
 import Html from '../assets/html-5.png';
 import Css from '../assets/css-3.png';
 import Javascript from '../assets/javascript.png';
@@ -32,7 +30,7 @@ export default function Hero() {
                     </h1>
                     <div className='flex py-10'>
                         <a href={config.social.facebook} className='pr-5 hover:text-white'><AiOutlineFacebook size={40} /></a>
-                        <a href={config.social.linkedin} target="_blank" className='hover:text-white'><AiOutlineLinkedin size={40} />
+                        <a href={config.social.linkedin}  className='hover:text-white'><AiOutlineLinkedin size={40} />
 
                         </a>
                     </div>

@@ -26,7 +26,7 @@ export default function Resume () {
             </p>
             <p className="pb-5 flex items-center gap-2">
               You can view my resume
-              <a className="btn text-white" href={config.link} target="_blank" download>
+              <a className="btn text-white" href={config.link} download>
                 {" "}
                 Download
               </a>
