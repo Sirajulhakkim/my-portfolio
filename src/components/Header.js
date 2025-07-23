@@ -5,7 +5,7 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-5 bg-primary sticky top-0 bg-white z-20">
+    <header className="flex justify-between items-center p-8 bg-primary sticky top-0 bg-white z-20">
         <h1 className=" text-white font-extrabold  text-3xl">
           My Portfolio
         </h1>
